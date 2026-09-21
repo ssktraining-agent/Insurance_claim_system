@@ -22,7 +22,7 @@ services:
 
   # ── Zookeeper ──────────────────────────────
   zookeeper:
-    image: public.ecr.aws/bitnami/zookeeper:3.9
+    image: soldevelo/zookeeper:3.9
     container_name: healthone-zookeeper
     networks: [healthone-tpa-net]
     environment:
